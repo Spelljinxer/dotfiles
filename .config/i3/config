@@ -221,7 +221,7 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id ~/.config/polybar/material/scripts/pywal.sh ~/Wallpapers/wallpaper2.png
+exec --no-startup-id ~/.config/polybar/material/scripts/pywal.sh ~/Wallpapers/wallpaper1.png
 exec_always ~/.config/polybar/launch.sh --material
 #exec ~/.config/lemonbar/panel-pywal.sh
 exec_always compton -f
