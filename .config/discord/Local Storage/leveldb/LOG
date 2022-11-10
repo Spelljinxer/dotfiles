@@ -1,0 +1,6 @@
+2022/11/10-02:10:22.083 9c2f Reusing MANIFEST /home/spelljinxer/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/11/10-02:10:22.086 9c2f Recovering log #7
+2022/11/10-02:10:22.086 9c2f Reusing old log /home/spelljinxer/.config/discord/Local Storage/leveldb/000007.log 
+2022/11/10-02:11:23.213 9cfc Level-0 table #10: started
+2022/11/10-02:11:23.230 9cfc Level-0 table #10: 1193036 bytes OK
+2022/11/10-02:11:23.233 9cfc Delete type=0 #7
