@@ -48,7 +48,8 @@ client.background 	$bg
 #window rules
 for_window [class=".*"] border pixel 2
 gaps inner 10
-gaps outer 10
+gaps outer 1
+gaps top 60
 #smart_gaps on
 #smart_borders on
 for_window [class=Viewnior|feh|Audacity|File-roller] floating enable
@@ -222,6 +223,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id ~/.config/polybar/material/scripts/pywal.sh ~/Wallpapers/wallpaper1.png
-exec_always ~/.config/polybar/launch.sh --material
+#exec_always ~/.config/polybar/launch.sh --material
+exec_always ~/.config/polybar/blocks/launch.sh
 #exec ~/.config/lemonbar/panel-pywal.sh
 exec_always compton -f

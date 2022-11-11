@@ -35,14 +35,15 @@ font-1=FontAwesome5Free:style=Regular:size=9:antialias=true;3
 font-2=FontAwesome5Free:style=Solid:size=9:antialias=true;3
 font-3=IPAGothic:style=Regular:size=11:antialias=true;3
 
-height = 1%
+
+height = 45
 ;radius = 20
 ;Works very well with a ;radius like this! Put it on every bar.
 
 background = ${colors.background}
 override-redirect=true
 offset-y = 10
-offset-x = 20
+
 ;wm-restack = i3
 
 [bar/i3]
@@ -82,7 +83,7 @@ offset-x = 84%
 
 ;tray-position = right
 
-modules-left = battery time power
+modules-left = pulseaudio time power
 
 ;                      _       _           
 ;  _ __ ___   ___   __| |_   _| | ___  ___ 
@@ -92,7 +93,7 @@ modules-left = battery time power
                                          
 [module/wsnumber]
 type = custom/script
-exec = ~/.config/polybar/blocks/get_workspace
+exec = ~/.config/polybar/get_workspace
 tail = true
 interval = 0
 format = "<label>  "
@@ -142,30 +143,6 @@ label-urgent-foreground = ${colors.background}
 ;ws-icon-2 = 3;
 ;ws-icon-9 = 10;
 ;ws-icon-default = 
-
-[module/battery]
-type = internal/battery
-battery = BAT0
-adapter = AC0
-full-at = 100
-format-charging = <animation-charging> <label-charging>
-label-charging = %percentage%%
-format-charging-foreground = ${colors.color3}
-format-charging-background = ${colors.background}
-format-charging-padding = 2
-
-format-discharging = <ramp-capacity> <label-discharging>
-format-discharging-foreground = ${colors.color3}
-format-discharging-background = ${colors.background}
-format-discharging-padding = 2
-label-discharging = %percentage%%
-
-label-full = Charged
-label-full-background = ${colors.background}
-label-full-foreground = ${colors.color3}
-label-full-padding = 1
-
-ramp-capacity-0 = "[]"
 
 [module/power]
 type = custom/text
@@ -297,13 +274,7 @@ screenchange-reload = true
 [global/wm]
 margin-top = 0
 margin-bottom = 0
-fixed-center = true
-width = 100$
-height = 40
-offset-x = 30%
-offset-y = 2%
-border-size = 3
-padding = 20
+
 ; vim:ft=dosini
                       
 
