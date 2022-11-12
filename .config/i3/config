@@ -46,7 +46,7 @@ client.placeholder 	$bg 		$bg		$fg		$bg			$bg
 client.background 	$bg
 
 #window rules
-for_window [class=".*"] border pixel 2
+for_window [class="^.*"] border pixel 2
 gaps inner 10
 gaps outer 1
 gaps top 60
@@ -226,4 +226,5 @@ exec --no-startup-id ~/.config/polybar/material/scripts/pywal.sh ~/Wallpapers/wa
 #exec_always ~/.config/polybar/launch.sh --material
 exec_always ~/.config/polybar/blocks/launch.sh
 #exec ~/.config/lemonbar/panel-pywal.sh
-exec_always compton -f
+#exec_always compton -f
+exec_always picom --config ~/.config/picom/picom.conf
