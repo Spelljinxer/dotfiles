@@ -8,4 +8,5 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-neofetch --crop_mode fit --w3m ~/Wallpapers/wallpaper4.jpg
+neofetch --ascii ~/.config/neofetch/ahegao_ascii
+#neofetch --crop_mode fit --w3m ~/Wallpapers/wallpaper4.jpg
