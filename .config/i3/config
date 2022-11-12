@@ -16,9 +16,9 @@ set $mod Mod1
 font pango:JetBrainsMono-Regular 12
 
 #betterlockscreen
-#exec --no-startup-id betterlockscreen -u ~/Wallpapers/wallpaper1.png --fx blur --blur 1
-bindsym $mod+Shift+x exec betterlockscreen -l blur
-
+#exec --no-startup-id betterlockscreen -u ~/Wallpapers/wallpaper5.jpg
+bindsym $mod+Shift+x exec betterlockscreen -l
+bindsym Print exec ~/.config/screeny
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -81,14 +81,14 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Shift+u exec urxvt
+bindsym $mod+Return exec urxvt
+bindsym $mod+Shift+u exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id ~/almighty-dotfiles/.utility/dmenu-pywal
 
 bindsym $mod+shift+d exec --no-startup-id rofi -show drun
 bindsym $mod+p exec --no-startup-id ~/.config/rofi/launch.sh

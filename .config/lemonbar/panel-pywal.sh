@@ -2,9 +2,10 @@
 
 # Import the colors
 . "${HOME}/.cache/wal/colors.sh"
-
+killall -q polybar
+while pgreg -u $UID -x polybar >/dev/null; do sleep 1; done
 PANEL_FIFO=/tmp/panel-fifo
-HEIGHT=24
+HEIGHT=56
 WIDTH=1920
 XOFFSET=0
 YOFFSET=0
@@ -77,8 +78,8 @@ done > $PANEL_FIFO &
 
 # bat
 while :; do
-		battery_status=$(cat /sys/class/power_supply/BAT1/status)
-		battery_percent=$(cat /sys/class/power_supply/BAT1/capacity)
+		battery_status=$(cat /sys/class/power_supply/BAT0/status)
+		battery_percent=$(cat /sys/class/power_supply/BAT0/capacity)
 		case "$battery_status" in
 			Charging) echo 'B' "$(icon  1) ${battery_percent}";;
 			Discharging)
