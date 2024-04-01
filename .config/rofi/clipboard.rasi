@@ -1,0 +1,89 @@
+// Config //
+configuration {
+    modi:                        "drun";
+    show-icons:                  false;
+    font:                        "JetBrainsMono Nerd Font 9";
+}
+
+@theme "~/.config/rofi/themes/theme.rasi"
+
+
+// Main //
+window {
+    height:                      55%;
+    width:                       20%;
+    transparency:                "real";
+    fullscreen:                  false;
+    enabled:                     true;
+    cursor:                      "default";
+    spacing:                     0em;
+    padding:                     0em;
+    border-color:                @main-br;
+    background-color:            @main-bg;
+}
+mainbox {
+    enabled:                     true;
+    spacing:                     0em;
+    orientation:                 vertical;
+    children:                    [ "inputbar" , "listbox" ];
+    background-color:            transparent;
+}
+
+
+// Inputs //
+inputbar {
+    enabled:                     true;
+    padding:                     0.5em;
+    children:                    [ "entry" ];
+    background-color:            transparent;
+}
+entry {
+    enabled:                     true;
+    padding:                     3em;
+    text-color:                  @main-fg;
+    background-color:            transparent;
+    background-image:            url("~/.config/swww/wall.blur", width);
+}
+
+
+// Lists //
+listbox {
+    spacing:                     0em;
+    padding:                     0em;
+    orientation:                 horizontal;
+    children:                    [ "listview" ];
+    background-color:            transparent;
+}
+listview {
+    enabled:                     true;
+    padding:                     0.5em;
+    columns:                     1;
+    cycle:                       true;
+    fixed-height:                true;
+    fixed-columns:               true;
+    cursor:                      "default";
+    background-color:            transparent;
+    text-color:                  @main-fg;
+}
+
+
+// Elements //
+element {
+    enabled:                     true;
+    padding:                     0.5em;
+    cursor:                      pointer;
+    background-color:            transparent;
+    text-color:                  @main-fg;
+}
+element selected.normal {
+    background-color:            @select-bg;
+    text-color:                  @select-fg;
+}
+element-text {
+    vertical-align:              0.0;
+    horizontal-align:            0.0;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
+
