@@ -316,7 +316,7 @@
     },
 
     "custom/padd": {
-        "format": "  ",
+        "format": " ",
         "interval" : "once",
         "tooltip": false
     }
