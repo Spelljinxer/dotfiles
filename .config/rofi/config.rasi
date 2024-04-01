@@ -17,8 +17,8 @@ configuration {
 
 // Main //
 window {
-    height:                      29em;
-    width:                       42em;
+    height:                      37em;
+    width:                       49em;
     transparency:                "real";
     fullscreen:                  false;
     enabled:                     true;
@@ -61,18 +61,10 @@ entry {
     placeholder:                 "Looking for something?";
     placeholder-color:           #E276A0;
 }
-textbox-prompt-colon{
-    enabled:                    false;
-    padding:                    6px 0px 6px 10px;
-    expand:                     false;
-    str:                        "";
-    text-color:                 inherit;
-    background-color:           inherit;
-}
 
 // Lists //
 listbox {
-    padding:                     1.7em;
+    padding:                     1.15em;
     spacing:                     0em;
     orientation:                 horizontal;
     children:                    [ "listview"];
@@ -136,7 +128,7 @@ element {
 }
 element selected.normal {
     background-color:            #8F62A3;
-    text-color:                  #1B1D33;
+    text-color:                  #291E31;
     border-radius:		 0px;
 }
 element-icon {
