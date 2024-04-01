@@ -1,5 +1,5 @@
 # dotfiles
-Storage for my dotfiles config for Arch Linux - i3wm
+Arch Linux - Hyprland dotfiles
 
 > add screenshots later
 > add credits later
