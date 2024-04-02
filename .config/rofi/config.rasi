@@ -42,12 +42,21 @@ mainbox {
 // Inputs //
 inputbar {
     enabled:                     true;
-    spacing:                     0em;
+    spacing:                     10px;
     padding:                     1.2em;
-    children:                    [ "entry" ];
+    children:                    [ "textbox-prompt-colon", "entry" ];
     background-color:            @main-bg;
     // background-image:            url("~/.config/swww/wall.rofi", width);
 }
+
+textbox-prompt-colon {
+    enabled:                     false;
+    expand:                      false;
+    str:                         "test";
+    background-color:            inherit;
+    text-color:                  inherit;
+}
+
 entry {
     border-radius:               0em;
     border:                      1px;
@@ -58,8 +67,9 @@ entry {
     text-color:                  #E276A0;
     //61382D
     background-color:            transparent;
-    placeholder:                 "Looking for something?";
+    placeholder:                 "looking for something...?";
     placeholder-color:           #E276A0;
+    cursor:                      text;
 }
 
 // Lists //
@@ -127,8 +137,8 @@ element {
     }
 }
 element selected.normal {
-    background-color:            #8F62A3;
-    text-color:                  #291E31;
+    background-color:            #895B91;
+    text-color:                  #251D3F;
     border-radius:		 0px;
 }
 element-icon {

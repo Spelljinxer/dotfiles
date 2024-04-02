@@ -38,10 +38,10 @@ tooltip {
 #workspaces button.active {
     background: @wb-act-bg;
     color: @wb-act-fg;
-    margin-left: 2px;
-    padding-left: 11px;
-    padding-right: 11px;
-    margin-right: 2px;
+    margin-left: 1px;
+    padding-left: 4px;
+    padding-right: 8px;
+    margin-right: 1px;
     animation: ws_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -177,7 +177,7 @@ tooltip {
 }
 #custom-cpuinfo,
 #custom-gpuinfo{
-    color: #CBA4BD;
+    color: #C676D3;
 }
 #custom-updates,
 #custom-power{
@@ -200,9 +200,13 @@ tooltip {
     padding-right: 14px;
 }
 #memory{
-    color: #C697B9;
+    color: #895B91;
 }
-  
+
+#battery{
+    color: #C676D3;
+}
+
 #custom-launcher{
     color:#BC6494;
     padding-right: 8px;
