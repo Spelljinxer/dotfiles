@@ -1,7 +1,7 @@
 // Config //
 configuration {
     modi:                        "drun,filebrowser,window,run";
-    show-icons:                  true;
+    show-icons:                  false;
     display-drun:                "";
     display-run:                 "";
     display-filebrowser:         "";
