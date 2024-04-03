@@ -111,8 +111,8 @@
 "hyprland/workspaces": {
     "format" : "{icon}",
     "format-icons": {
-       "active" : "",
-       "default":"",
+       "active" : "",
+       "default":"",
         
     },
     "disable-scroll": true,
@@ -121,7 +121,7 @@
     "active-only": false,
     "on-click": "activate",
     "persistent-workspaces": {
-        "*": 4,
+        "*": 3,
     }
 },
 
@@ -237,7 +237,7 @@
 },
 
 "clock": {
-    "format": "{:%I:%M %p}",
+    "format": "{:%R 󰃭 %d·%m·%y}",
     "rotate": 0,
     "format-alt": "{:%R 󰃭 %d·%m·%y}",
     "tooltip-format": "<tt>{calendar}</tt>",
