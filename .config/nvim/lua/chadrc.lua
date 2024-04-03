@@ -39,6 +39,10 @@ M.ui = {
         base02 = "#9A728F",
         --comments, invisibles, line highlights
         base03 = "#B19C9B",
+        --classes, markup bold
+        base0A = "#5F456F",
+        --default bg?
+        base00 = "#9A728F",
       },
     },
   },
