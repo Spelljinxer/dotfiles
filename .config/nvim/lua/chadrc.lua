@@ -24,7 +24,7 @@ M.ui = {
         --variables, xml tags
         base08 = "#83A6BF",
         --strings, inherited class
-        base0B = "#DEC386",
+        base0B = "#83A6BF",
         --keywords, storage, selector
         base0E = "#B28999",
         --functions, methodsods
