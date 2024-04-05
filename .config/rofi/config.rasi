@@ -60,15 +60,15 @@ textbox-prompt-colon {
 entry {
     border-radius:               0em;
     border:                      1px;
-    border-color:                #9B6EC9;
+    border-color:                #EAB2C2;
     enabled:                     true;
     spacing:                     0em;
     padding:                     0.8em;
-    text-color:                  #E276A0;
+    text-color:                  #83A3BB;
     //61382D
     background-color:            transparent;
     placeholder:                 "looking for something...?";
-    placeholder-color:           #E276A0;
+    placeholder-color:           #83A3BB;
     cursor:                      text;
 }
 
@@ -129,7 +129,7 @@ element {
     padding:                     0.2em;
     cursor:                      pointer;
     background-color:            transparent;
-    text-color:                  #F4DBE3;
+    text-color:                  #EBDDBC;
 }
 @media(max-aspect-ratio: 1.8) {
     element {
@@ -137,8 +137,8 @@ element {
     }
 }
 element selected.normal {
-    background-color:            #895B91;
-    text-color:                  #251D3F;
+    background-color:            #EAB2C2;
+    text-color:                  #1B1E25;
     border-radius:		 0px;
 }
 element-icon {
