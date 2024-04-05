@@ -1,0 +1,42 @@
+# This is the configuration file for catnip.
+# Here you can configure the stat colors,
+# stat names, stat icons and more!
+#
+# https://github.com/iinsertNameHere/catnip
+
+##############################################
+##          FetchInfo stats Config          ##
+##############################################
+[stats]
+username  = {icon = " ", name = "user", color = "(RD)"}
+hostname  = {icon = " ", name = "host", color = "(RD)"}
+uptime    = {icon = " ", name = "uptime", color = "(BE)"}
+distro    = {icon = " ", name = "distro", color = "(BE)"}
+kernel    = {icon = " ", name = "kernel", color = "(MA)"}
+desktop   = {icon = " ", name = "desktp", color = "(MA)"}
+terminal  = {icon = " ", name = "term", color = "(CN)"}
+shell     = {icon = " ", name = "shell", color = "(CN)"}
+# cpu       = {icon = " ", name = "cpu", color = "(RD)"}
+# disk      = {icon = " ", name = "disk", color = "(GN)"}
+# memory    = {icon = " ", name = "memory", color = "(YW)"}
+sep_color = "SEPARATOR"
+colors    = {icon = " ", name = "colors", color = "!DT!", symbol = ""}
+
+##############################################
+##               Misc Config                ##
+##############################################
+[misc]
+layout = "Inline" # [Inline, ArtOnTop, StatsOnTop]
+
+[misc.figletLogos]
+enable = false
+color  = "(YW)"
+font   = "slant"
+margin = [0, 0, 0,]
+
+[misc.imageMode]
+enable = true
+path   = "/home/kyokino/.config/neofetch/pngs/bocchi-icon.png" # Please use only absolute paths
+
+scale  = 24
+margin = [0, 0, 1]
