@@ -37,7 +37,7 @@ tooltip {
 
 #workspaces button.active {
     /* background: @wb-act-bg; */
-    color: #9B6EC9;
+    color: #EAB2C2;
     /* margin-left: 1px;
     padding-left: 4px;
     padding-right: 8px;
@@ -48,7 +48,7 @@ tooltip {
 
 #workspaces button:hover {
     /* background: @wb-hvr-bg; */
-    color: #BC6494;
+    color: #D5A5AA;
     animation: ws_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -173,42 +173,42 @@ tooltip {
   }
 
 #cpu{
-    color: #9B6EC9;
+    color: #EAB2C2;
 }
 #custom-cpuinfo,
 #custom-gpuinfo{
-    color: #C676D3;
+    color: #83A6BF;
 }
 #custom-updates,
 #custom-power{
-    color: #BC6494;
+    color: #83A6BF;
 }
 #custom-power{
     padding-right: 8px;
 }
 #network,#blueooth,#pulseaudio{
-    color: #9B6EC9;
+    color: #EAB2C2;
 }
 #backlight{
-    color: #C39FDE;
+    color: #83A3BB;
 }
 #clock, #idle_inhibitor{
-    color: #AA9EDC;
+    color: #DEC386;
 }
 #idle_inhibitor{
-    color: #AA9EDC;
+    color: #DEC386;
     padding-right: 14px;
 }
 #memory{
-    color: #895B91;
+    color: #DEC386;
 }
 
 #battery{
-    color: #C676D3;
+    color: #83A6BF;
 }
 
 #custom-launcher{
-    color:#BC6494;
+    color:#83A6BF;
     padding-right: 8px;
 }
 
