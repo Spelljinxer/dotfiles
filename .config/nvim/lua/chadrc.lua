@@ -8,41 +8,41 @@ M.ui = {
   changed_themes = {
     ashes = {
        base_30 = {
-        black = "#100C18",
+        black = "#1b1e25",
         pmenu_bg = "#E1DCEE",
-        folder_bg = "#9B6EC9",
-        pink = "#9B6EC9",
-        nord_blue = "#C8B6E9",
-        lightbg = "#100C18",
-        green = "#9A728F",
-        light_grey = "#9B6EC9",
-        statusline_bg= "#100C18",
-        darker_black = "#100C18",
-        purple = "#9B6EC9",
+        folder_bg = "#D5A5AA",
+        pink = "#D5A5AA",
+        nord_blue = "#DEC386",
+        lightbg = "#1b1e25",
+        green = "#B28999",
+        light_grey = "#D5A5AA",
+        statusline_bg= "#1b1e25",
+        darker_black = "#1b1e25",
+        purple = "#D5A5AA",
       },
       base_16 = {
         --variables, xml tags
-        base08 = "#9B6EC9",
+        base08 = "#83A6BF",
         --strings, inherited class
-        base0B = "#ACA3DF",
+        base0B = "#DEC386",
         --keywords, storage, selector
-        base0E = "#9A728F",
+        base0E = "#B28999",
         --functions, methodsods
-        base0D = "#5F456F",
+        base0D = "#EAB2C2",
         --integers, boolean, constants
-        base09 = "#B78A9f",
+        base09 = "#83A6BF",
         --default fg, caret, delimiters
-        base05 = "#ACA3DF",
+        base05 = "#DEC386",
         --lighter bg (status bars)
-        base01 = "#D0C3ED",
+        base01 = "#83A6BF",
         --light folder 
-        base02 = "#9A728F",
+        base02 = "#B28999",
         --comments, invisibles, line highlights
         base03 = "#B19C9B",
         --classes, markup bold
-        base0A = "#5F456F",
+        base0A = "#7293A9",
         --default bg?
-        base00 = "#9A728F",
+        base00 = "#1b1e25",
       },
     },
   },
