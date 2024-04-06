@@ -3,11 +3,11 @@
 
  gradient = 1
  gradient_count = 8
- gradient_color_1 = '#432952'
- gradient_color_2 = '#5A3A6B'
- gradient_color_3 = '#784B7D'
- gradient_color_4 = '#8A578F'
- gradient_color_5 = '#A365A0'
- gradient_color_6 = '#C27ABE'
- gradient_color_7 = '#E69ADD'
- gradient_color_8 = '#F0AAE8'
+ gradient_color_1 = '#293352'
+ gradient_color_2 = '#3A476B'
+ gradient_color_3 = '#4B737D'
+ gradient_color_4 = '#57848F'
+ gradient_color_5 = '#A39B65'
+ gradient_color_6 = '#C2B87A'
+ gradient_color_7 = '#E69AB3'
+ gradient_color_8 = '#F0AAC1'
