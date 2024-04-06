@@ -36,7 +36,7 @@ margin = [0, 0, 0,]
 
 [misc.imageMode]
 enable = true
-path   = "/home/kyokino/.config/neofetch/pngs/bocchi-icon.png" # Please use only absolute paths
+path   = "/home/kyokino/.config/catnip/bocchi-transparent.png" # Please use only absolute paths
 
 scale  = 24
 margin = [0, 0, 1]
