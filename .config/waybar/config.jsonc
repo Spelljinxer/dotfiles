@@ -18,7 +18,7 @@
 
 	"modules-left": ["custom/padd","custom/l_end","cpu","memory","custom/cpuinfo","custom/gpuinfo","custom/r_end","custom/l_end","hyprland/workspaces","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","custom/updates","custom/r_end","custom/l_end","tray","custom/r_end","custom/l_end","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/r_end","custom/l_end","battery","backlight","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/l_end","custom/launcher","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","custom/updates","custom/r_end","custom/l_end","tray","custom/r_end","custom/l_end","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/r_end","custom/l_end","battery","backlight","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/padd","custom/launcher","custom/padd","custom/padd"],
 
 
 // sourced from modules based on config.ctl //

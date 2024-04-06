@@ -148,6 +148,7 @@ tooltip {
     margin: 6px 0px 6px 0px;
     padding-left: 4px;
     padding-right: 4px;
+    
 }
 
 #custom-weather {
@@ -231,9 +232,14 @@ tooltip {
 }
 
 #custom-launcher{
-    color:#EAB2C2;
-    padding-right: 8px;
-    font-size: 19px;
+    color:@bar-bg;
+    background: #EAB2C2;
+    padding-right: 15px;
+    font-size: 17px;
+    padding-left: 12px;
+    border-radius: 5px;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
 }
 
 #workspaces,
