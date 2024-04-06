@@ -14,7 +14,7 @@ window#waybar {
 }
 
 tooltip {
-    background: @main-bg;
+    background: #EAB2C2;
     color: @main-fg;
     border-radius: 8px;
     border-width: 0px;
@@ -31,19 +31,31 @@ tooltip {
     padding-left: 4px;
     padding-right: 4px;
     margin-right: 0px;
-    color: @main-fg;
+    color: #EAB2C2;
     animation: ws_normal 20s ease-in-out 1;
+}
+
+#workspaces button.persistent{
+    color: #EBDDBC;
 }
 
 #workspaces button.active {
     /* background: @wb-act-bg; */
-    color: #EAB2C2;
+    color: #EBDDBC;
     /* margin-left: 1px;
     padding-left: 4px;
     padding-right: 8px;
     margin-right: 1px; */
     animation: ws_active 20s ease-in-out 1;
-    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
+    /* transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682); */
+}
+
+#workspaces button.persistent:nth-child(2){
+    color: #EAB2C2;
+}
+
+#workspaces button.persistent:nth-child(3){
+    color: #83A6BF;
 }
 
 #workspaces button:hover {
@@ -58,11 +70,11 @@ tooltip {
 	text-shadow: none;
     padding: 0px;
     border-radius: 8px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     margin-left: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
     margin-right: 0px;
     color: @wb-color;
     animation: tb_normal 20s ease-in-out 1;
@@ -175,13 +187,23 @@ tooltip {
 #cpu{
     color: #EAB2C2;
 }
+#tray menu menuitem{
+  color: #EAB2C2;
+}
+
+#tray menu *{
+  color: #EAB2C2;
+}
+
+
+
 #custom-cpuinfo,
 #custom-gpuinfo{
     color: #83A6BF;
 }
 #custom-updates,
 #custom-power{
-    color: #83A6BF;
+    color: #EAB2C2;
 }
 #custom-power{
     padding-right: 8px;
@@ -252,4 +274,5 @@ tooltip {
     margin-left: 8px;
     padding-left: 0px;
 }
+
 

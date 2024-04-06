@@ -111,7 +111,7 @@
 "hyprland/workspaces": {
     "format" : "{icon}",
     "format-icons": {
-       "active" : "",
+       "active" : "󱨇",
        "default":"",
         
     },
@@ -136,7 +136,7 @@
 },
 
 "tray": {
-    "icon-size": 16,
+    "icon-size": 18,
     "rotate": 0,
     "spacing": 5
 },
@@ -155,10 +155,10 @@
 },
 
 "bluetooth": {
-    "format": "",
+    "format": "",
+    "format-connected": "󰂱",
+    "format-disabled": "󰂲",
     "rotate": 0,
-    "format-disabled": "",
-    "format-connected": " {num_connections}",
     "format-connected-battery": "{icon} {num_connections}",
     // "format-connected-battery": "{icon} {device_alias}-{device_battery_percentage}%",
     "format-icons": ["󰥇", "󰤾", "󰤿", "󰥀", "󰥁", "󰥂", "󰥃", "󰥄", "󰥅", "󰥆", "󰥈"],
