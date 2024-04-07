@@ -38,8 +38,8 @@ List of programs and tools I use.
 
 ## 📝 Credits
 
-- **Hyprdots** Used their installation and tweaked from there : [hyprdots](https://github.com/prasanthrangan/hyprdots).
-- **hyprlock config** Based hyprlock config off of them : [hyprlock](https://github.com/zDyanTB/HyprNova)
+- **Hyprdots** - Used their installation and tweaked from there : [hyprdots](https://github.com/prasanthrangan/hyprdots).
+- **hyprlock config** - Based hyprlock config off of them : [hyprlock](https://github.com/zDyanTB/HyprNova)
 
 ## 📸 More Screenshots
 
