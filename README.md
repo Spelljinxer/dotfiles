@@ -28,7 +28,7 @@ List of programs and tools I use.
 | Music Player 🎵   | [ncspot](https://github.com/hrkfdn/ncspot)      |
 | Visualiser 📊     | [cava](https://github.com/karlstav/cava)          |
 | Lyrics 🎤         | [sptlrx](https://github.com/raitonoberu/sptlrx)      |
-| Pomodoro 🍅       | [tomato-c](Uhttps://github.com/gabrielzschmitz/Tomato.C)      |
+| Pomodoro 🍅       | [tomato-c](https://github.com/gabrielzschmitz/Tomato.C)      |
 | Others 🌱         | [cbonsai](https://github.com/mhzawadi/homebrew-cbonsai), [colorscripts](https://github.com/stark/Color-Scripts), [asciiquarium](https://github.com/cmatsuoka/asciiquarium) |
 
 
