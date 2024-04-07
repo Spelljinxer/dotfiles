@@ -1,7 +1,7 @@
 <!-- <h1 align="center"> Minimal Bocchi</h1> -->
 
 <p align="center">
-  <img src="./Preview/title.png" alt="Minimal Bocchi" style="width: 50%;">
+  <img src="./Preview/title.png" alt="Minimal Bocchi" style="width: 85%;">
 </p>
 
 <p align="center">First ever 'official' rice. Based on <a href="https://anilist.co/anime/130003/BOCCHI-THE-ROCK/">ぼっち・ざ・ろっく！</a></p>
