@@ -38,5 +38,5 @@ margin = [0, 0, 0,]
 enable = true
 path   = "/home/kyokino/.config/catnip/bocchi-transparent.png" # Please use only absolute paths
 
-scale  = 24
+scale  = 23
 margin = [0, 0, 1]
