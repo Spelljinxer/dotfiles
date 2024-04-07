@@ -8,14 +8,14 @@
 ##          FetchInfo stats Config          ##
 ##############################################
 [stats]
-username  = {icon = " ", name = "nm", color = "(RD)"}
-hostname  = {icon = " ", name = "ht", color = "(RD)"}
-uptime    = {icon = " ", name = "up", color = "(BE)"}
-distro    = {icon = " ", name = "ds", color = "(BE)"}
-kernel    = {icon = " ", name = "ke", color = "(MA)"}
-desktop   = {icon = " ", name = "de", color = "(MA)"}
-terminal  = {icon = " ", name = "tm", color = "(CN)"}
-shell     = {icon = " ", name = "sh", color = "(CN)"}
+username  = {icon = " ", name = "nme", color = "(RD)"}
+hostname  = {icon = " ", name = "hst", color = "(RD)"}
+uptime    = {icon = " ", name = "upt", color = "(BE)"}
+distro    = {icon = " ", name = "dst", color = "(BE)"}
+kernel    = {icon = " ", name = "ker", color = "(MA)"}
+desktop   = {icon = " ", name = "dwm", color = "(MA)"}
+terminal  = {icon = " ", name = "trm", color = "(CN)"}
+shell     = {icon = " ", name = "shl", color = "(CN)"}
 # cpu       = {icon = " ", name = "cpu", color = "(RD)"}
 # disk      = {icon = " ", name = "disk", color = "(GN)"}
 # memory    = {icon = " ", name = "memory", color = "(YW)"}
