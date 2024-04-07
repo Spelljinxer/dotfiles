@@ -4,7 +4,7 @@
   <img src="./Preview/title.png" alt="Minimal Bocchi" style="width: 85%;">
 </p>
 
-<p align="center">First ever 'official' rice. Based on <a href="https://anilist.co/anime/130003/BOCCHI-THE-ROCK/">ぼっち・ざ・ろっく！</a></p>
+<p align="center">First ever 'official' rice. Based on <a href="https://anilist.co/anime/130003/BOCCHI-THE-ROCK/">ぼっち・ざ・ろっく！</a> <br> Created in Arch Linux with Hyprland.</p>
 
 ## 📦 Programs
 
