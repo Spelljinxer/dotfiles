@@ -13,7 +13,7 @@ hostname  = {icon = " ", name = "hst", color = "(RD)"}
 uptime    = {icon = " ", name = "upt", color = "(BE)"}
 distro    = {icon = " ", name = "dst", color = "(BE)"}
 kernel    = {icon = " ", name = "ker", color = "(MA)"}
-desktop   = {icon = " ", name = "dwm", color = "(MA)"}
+desktop   = {icon = " ", name = "twm", color = "(MA)"}
 terminal  = {icon = " ", name = "trm", color = "(CN)"}
 shell     = {icon = " ", name = "shl", color = "(CN)"}
 # cpu       = {icon = " ", name = "cpu", color = "(RD)"}
