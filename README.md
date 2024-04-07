@@ -18,7 +18,7 @@ List of programs and tools I use.
 |-------------------|------------|
 | Windows Manager 🪟| [hyprland](https://github.com/hyprwm/Hyprland)  |
 | Terminal 🖥️       | [kitty](https://github.com/kovidgoyal/kitty)        |
-| Shell 🐚          | [zsh](https://www.zsh.org/) / [theme](https://github.com/romkatv/powerlevel10k) |
+| Shell 🐚          | [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) / [theme](https://github.com/romkatv/powerlevel10k) |
 | Fetch 🖼️          | [catnip](https://github.com/noriah/catnip) / [icon](https://www.pixiv.net/en/artworks/102563034) |
 | File Manager 📁   | [ranger](https://github.com/ranger/ranger)      |
 | Editor 📝         | [neovim](https://github.com/neovim/neovim) / [nvchad](https://github.com/NvChad/NvChad)     |
