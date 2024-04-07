@@ -44,11 +44,11 @@ List of programs and tools I use.
 ## 📸 More Screenshots
 
 <p align="center">
-  <img src="./Screenshots/sddm-sc.png" alt="Screenshot 1" width="55%" />
+  <img src="./Screenshots/sddm-sc.png" alt="Screenshot 1" width="75%" />
 </p>
 <p align="center">
-  <img src="./Screenshots/sc-1.png" alt="Screenshot 2" width="55%" />
+  <img src="./Screenshots/sc-1.png" alt="Screenshot 2" width="75%" />
 </p>
 <p align="center">
-  <img src="./Screenshots/rofi-sc.png" alt="Screenshot 3" width="55%" />
+  <img src="./Screenshots/rofi-sc.png" alt="Screenshot 3" width="75%" />
 </p>
