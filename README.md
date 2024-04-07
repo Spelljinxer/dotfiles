@@ -1,21 +1,25 @@
-<h1 align="center"> Minimal Bocchi  </h1>
+<!-- <h1 align="center"> Minimal Bocchi</h1> -->
 
+<p align="center">
+  <img src="./Preview/title.png" alt="Minimal Bocchi" style="width: 50%;">
+</p>
 
-<p align="center">Lorem Ipsum Dolor Sit Amet.</p>
+<p align="center">First ever 'official' rice. Based on <a href="https://anilist.co/anime/130003/BOCCHI-THE-ROCK/">ぼっち・ざ・ろっく！</a></p>
 
 ## Programs
 
-Here is a list of the main programs and tools used in the Minimal Bocchi configuration.
+List of programs and tools I use.
 
 
 | Component         | Program    |
 |-------------------|------------|
 | Windows Manager 🪟| [hyprland](URL-to-Hyprland-Repo)  |
 | Terminal 🖥️       | [kitty](URL-to-Kitty-Repo)        |
-| Shell 🐚          | [zsh](URL-to-Zsh-Repo) / [Theme](URL-to-P10K-Repo) |
+| Shell 🐚          | [zsh](URL-to-Zsh-Repo) / [theme](URL-to-P10K-Repo) |
+| Fetch 🖼️          | [catnip](URL-to-Catnip-Repo) / [icon](URL-to-Catnip-img-Repo) |
 | File Manager 📁   | [ranger](URL-to-Ranger-Repo)      |
 | Editor 📝         | [neovim](URL-to-Neovim-Repo)      |
-| Browser 🌐        | [Firefox](URL-to-Firefox-Repo) / [Startpage](URL-to-Aesthetic-startpages) |
+| Browser 🌐        | [firefox](URL-to-Firefox-Repo) / [startpage](URL-to-Aesthetic-startpages) |
 | Bar 📊            | [waybar](URL-to-Waybar-Repo)      |
 | Launcher 🚀       | [rofi](URL-to-Rofi-Repo)          |
 | Color Theme 🎨    | [pywal](URL-to-Pywal-Repo)        |
@@ -39,4 +43,7 @@ Lorem ipsum
 ## More Screenshots
 
 ![Screenshot 1](./Screenshots/sddm-sc.png)
+
 ![Screenshot 2](./Screenshots/sc-1.png)
+
+![Screenshot 2](./Screenshots/rofi-sc.png)
