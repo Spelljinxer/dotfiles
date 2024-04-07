@@ -6,7 +6,7 @@
 
 <p align="center">First ever 'official' rice. Based on <a href="https://anilist.co/anime/130003/BOCCHI-THE-ROCK/">ぼっち・ざ・ろっく！</a></p>
 
-## Programs
+## 📦 Programs
 
 List of programs and tools I use.
 
@@ -22,7 +22,7 @@ List of programs and tools I use.
 | Browser 🌐        | [firefox](https://github.com/topics/firefox-browser) / [startpage](https://github.com/Nainish-Rai/aesthetic-startpage) / [startpage wal](https://www.pixiv.net/en/artworks/115813778)|
 | Bar 📊            | [waybar](https://github.com/Alexays/Waybar)      |
 | Launcher 🚀       | [rofi](https://github.com/davatorium/rofi)          |
-| Color Theme 🎨    | [pywal](https://github.com/dylanaraps/pywal)        |
+| Color Theme 🎨    | [pywal](https://github.com/dylanaraps/pywal) |
 | Lockscreen 🔒     | [hyprlock](https://github.com/hyprwm/hyprlock)  |
 | Login Menu 🚪     | [sddm](https://github.com/sddm/sddm)          |
 | Music Player 🎵   | [ncspot](https://github.com/hrkfdn/ncspot)      |
@@ -32,18 +32,23 @@ List of programs and tools I use.
 | Others 🌱         | [cbonsai](https://github.com/mhzawadi/homebrew-cbonsai), [colorscripts](https://github.com/stark/Color-Scripts), [asciiquarium](https://github.com/cmatsuoka/asciiquarium) |
 
 
-## Preview
+## 🎸 Preview
 
 ![Preview](./Preview/preview-img.png)
 
-## Credits
+## 📝 Credits
 
-Lorem ipsum
+- **Hyprdots** Used their installation and tweaked from there : [hyprdots](https://github.com/prasanthrangan/hyprdots).
+- **hyprlock config** Based hyprlock config off of them : [hyprlock](https://github.com/zDyanTB/HyprNova)
 
-## More Screenshots
+## 📸 More Screenshots
 
-![Screenshot 1](./Screenshots/sddm-sc.png)
-
-![Screenshot 2](./Screenshots/sc-1.png)
-
-![Screenshot 2](./Screenshots/rofi-sc.png)
+<p align="center">
+  <img src="./Screenshots/sddm-sc.png" alt="Screenshot 1" width="55%" />
+</p>
+<p align="center">
+  <img src="./Screenshots/sc-1.png" alt="Screenshot 2" width="55%" />
+</p>
+<p align="center">
+  <img src="./Screenshots/rofi-sc.png" alt="Screenshot 3" width="55%" />
+</p>
