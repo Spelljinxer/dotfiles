@@ -44,6 +44,7 @@ List of programs and tools I use.
 - **Hyprdots** - Used their installation and tweaked from there : [hyprdots](https://github.com/prasanthrangan/hyprdots).
 - **hyprlock config** - Based hyprlock config off of them : [hyprlock](https://github.com/zDyanTB/HyprNova)
 - **hyprland-dots** - Inspiration from: [hyprland-dots](https://github.com/linuxmobile/hyprland-dots)
+- **sddm-theme** - sddm theme from [sddm-flower-theme](https://github.com/Keyitdev/sddm-flower-theme)
 
 ## 📸 More Screenshots
 
