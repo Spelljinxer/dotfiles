@@ -1,0 +1,27 @@
+{
+	"wallpaper": "/home/kyokino/Pictures/bgs/bocchi-4.ong",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1e25",
+        "foreground": "#ebddbc",
+        "cursor": "#ebddbc"
+    },
+    "colors": {
+        "color0": "#1b1e25",
+        "color1": "#967786",
+        "color2": "#7293A9",
+        "color3": "#D5A5AA",
+        "color4": "#83A6BF",
+        "color5": "#EAB2C2",
+        "color6": "#DEC386",
+        "color7": "#ebddbc",
+        "color8": "#a49a83",
+        "color9": "#967786",
+        "color10": "#7293A9",
+        "color11": "#D5A5AA",
+        "color12": "#83A6BF",
+        "color13": "#EAB2C2",
+        "color14": "#DEC386",
+        "color15": "#ebddbc"
+    }
+}
