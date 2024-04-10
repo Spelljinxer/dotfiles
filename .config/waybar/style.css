@@ -186,12 +186,6 @@ tooltip {
     color: #dbd9d8;
   }
 
-#cpu{
-    color: #EAB2C2;
-}
-#tray menu menuitem{
-  color: #EAB2C2;
-}
 
 #tray menu *{
   color: #EAB2C2;
@@ -200,35 +194,30 @@ tooltip {
 
 
 #custom-cpuinfo,
-#custom-gpuinfo{
+#custom-gpuinfo,
+#backlight,
+#battery{
     color: #83A6BF;
 }
 #custom-updates,
-#custom-power{
+#custom-power,
+#memory,
+#clock,
+#idle_inhibitor{
     color: #DEC386;
 }
 #custom-power{
     padding-right: 8px;
 }
-#network,#blueooth,#pulseaudio{
+#network,
+#blueooth,
+#pulseaudio,
+#cpu{
     color: #EAB2C2;
 }
-#backlight{
-    color: #83A3BB;
-}
-#clock, #idle_inhibitor{
-    color: #DEC386;
-}
-#idle_inhibitor{
-    color: #DEC386;
-    padding-right: 14px;
-}
-#memory{
-    color: #DEC386;
-}
 
-#battery{
-    color: #83A6BF;
+#idle_inhibitor{ 
+    padding-right: 14px;
 }
 
 #custom-launcher{
